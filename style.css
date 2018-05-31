@@ -1,0 +1,136 @@
+/*nav {*/
+
+/*    background-color: white;*/
+
+/*}*/
+
+/*.nav-extended {*/
+
+/*    min-height: 115px;*/
+
+/*}*/
+
+/*.tabs.tabs-transparent {*/
+
+/*    margin: auto;*/
+
+/*    width: 50%;*/
+
+/*}*/
+
+/*.tabs.tabs-transparent .tab a:hover,*/
+
+/*.tabs.tabs-transparent .tab a.active {*/
+
+/*    color: darkgrey;*/
+
+/*}*/
+
+/*.tabs.tabs-transparent .tab a,*/
+
+/*.tabs.tabs-transparent .tab.disabled a,*/
+
+/*.tabs.tabs-transparent .tab.disabled a:hover {*/
+
+/*    color: black;*/
+
+/*}*/
+
+/*nav .brand-logo {*/
+
+/*    color: black;*/
+
+/*}*/
+
+#row1 {
+    margin-top: 3%;
+}
+
+.tabs {
+    margin-top: 4%;
+}
+
+.tabs .tab a {
+    color: black;
+}
+
+.tabs .tab a.active {
+    color: lightgrey;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+    background-color: white;
+}
+
+.tabs .indicator {
+    background-color: #ff8400;
+}
+
+#row2 {
+    margin-top: 5%;
+}
+
+p {
+    font-family: helvetica;
+    font-weight: lighter;
+    /*font-size: 30px;*/
+}
+
+#text1 {
+    margin-top: 20%;
+    letter-spacing: 1.7px;
+    font-size: 25px;
+
+}
+
+#text2 {
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+    margin-top: -7%;
+    letter-spacing: 2px;
+
+}
+
+#text3 {
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+#text4 {
+    margin-top: -7%;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    font-size: 35px;
+    color: grey;
+}
+
+#row3 {
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 4%;
+}
+
+#row4 {
+    margin-top: -1%;
+    padding-top: 4%;
+    background-color: lightgrey;
+}
+
+#aboutMe {
+    font-size: 20px;
+    font-family: helvetica;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    padding-bottom: 5%;
+}
+
+#bellaPhoto {
+    box-sizing: content-box;
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    margin-top: 3.5%;
+    border-radius: 10px;
+}
