@@ -42,12 +42,14 @@
 
 /*}*/
 
-#row1 {
-    margin-top: 3%;
+#tabs {
+    margin-top: 5%;
 }
 
 .tabs {
     margin-top: 4%;
+    margin-bottom: 10%;
+
 }
 
 .tabs .tab a {
@@ -67,8 +69,10 @@
     background-color: #ff8400;
 }
 
-#row2 {
+#presentation {
     margin-top: 5%;
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 4%;
 }
 
 p {
@@ -107,12 +111,15 @@ p {
     color: grey;
 }
 
-#row3 {
-    border-bottom: 3px solid lightgrey;
-    padding-bottom: 4%;
-}
+/*#subRow {*/
 
-#row4 {
+/*    border-bottom: 3px solid lightgrey;*/
+
+/*    padding-bottom: 4%;*/
+
+/*}*/
+
+#subRow {
     margin-top: -1%;
     padding-top: 4%;
     background-color: lightgrey;
