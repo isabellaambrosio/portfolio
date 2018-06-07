@@ -1,46 +1,11 @@
-/*nav {*/
+p {
+    font-family: helvetica;
+    font-weight: lighter;
+}
 
-/*    background-color: white;*/
+/*=====================================*/
 
-/*}*/
-
-/*.nav-extended {*/
-
-/*    min-height: 115px;*/
-
-/*}*/
-
-/*.tabs.tabs-transparent {*/
-
-/*    margin: auto;*/
-
-/*    width: 50%;*/
-
-/*}*/
-
-/*.tabs.tabs-transparent .tab a:hover,*/
-
-/*.tabs.tabs-transparent .tab a.active {*/
-
-/*    color: darkgrey;*/
-
-/*}*/
-
-/*.tabs.tabs-transparent .tab a,*/
-
-/*.tabs.tabs-transparent .tab.disabled a,*/
-
-/*.tabs.tabs-transparent .tab.disabled a:hover {*/
-
-/*    color: black;*/
-
-/*}*/
-
-/*nav .brand-logo {*/
-
-/*    color: black;*/
-
-/*}*/
+/*TABS*/
 
 #tabs {
     margin-top: 5%;
@@ -69,16 +34,16 @@
     background-color: #ff8400;
 }
 
+/*=================================*/
+
+/*ABOUT*/
+
+/*FIRST ROW*/
+
 #presentation {
     margin-top: 5%;
     border-bottom: 3px solid lightgrey;
     padding-bottom: 4%;
-}
-
-p {
-    font-family: helvetica;
-    font-weight: lighter;
-    /*font-size: 30px;*/
 }
 
 #text1 {
@@ -111,13 +76,7 @@ p {
     color: grey;
 }
 
-/*#subRow {*/
-
-/*    border-bottom: 3px solid lightgrey;*/
-
-/*    padding-bottom: 4%;*/
-
-/*}*/
+/*SECOND ROW*/
 
 #subRow {
     margin-top: -1%;
@@ -140,4 +99,59 @@ p {
     margin-right: 3%;
     margin-top: 3.5%;
     border-radius: 10px;
+}
+
+/*=======================================*/
+
+/*MODALS*/
+
+.modal {
+    width: 90%;
+    max-height: 87%;
+    margin-top: -2%;
+}
+
+.mockImg {
+    box-sizing: content-box;
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.socialLogos {
+    width: 65%;
+    margin-left: 20%;
+    box-shadow: 2px 5px 8px lightgrey
+}
+
+.socialLogos:hover {
+    opacity: 0.5;
+}
+
+.mockupRow {
+    /*margin-bottom: 3%;*/
+}
+
+.projectInfo {
+    /*margin-left: 6%;*/
+    /*margin-right: 6%;*/
+}
+
+.description {
+    color: grey;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-top: -0.5%;
+}
+
+/*MODAL 2*/
+
+#projectInfo2 {
+    border-left: 1px solid #ff8400;
+    border-top: 1px solid #ff8400;
+    padding-top: 3%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
 }
