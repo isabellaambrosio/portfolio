@@ -1,5 +1,6 @@
 body {
     background-image: url("images/background.jpg");
+    /*background-color: #fcfcfc;*/
     width: 100%;
 }
 
@@ -25,6 +26,7 @@ p {
 
 .tabs .tab a {
     color: black;
+    font-family: helvetica;
 }
 
 .tabs .tab a.active {
@@ -48,6 +50,8 @@ p {
 
 #presentation {
     margin-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     border-bottom: 3px solid lightgrey;
     padding-bottom: 4%;
 }
@@ -200,7 +204,8 @@ p {
 /*RESUME*/
 
 #resume {
-    width: 90%;
+    width: 100%;
+    mix-blen-mode: overlay;
 }
 
 
@@ -209,6 +214,11 @@ p {
 @media only screen and (max-width: 650px) {
 
     /*ABOUT*/
+    #presentation {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
     #bellaCircle {
         width: 80%;
         margin-left: 10%;
