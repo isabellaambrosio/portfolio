@@ -1,5 +1,6 @@
 body {
     background-image: url("images/background.jpg");
+    /*background-color: #fcfcfc;*/
     width: 100%;
 }
 
@@ -200,7 +201,8 @@ p {
 /*RESUME*/
 
 #resume {
-    width: 90%;
+    width: 100%;
+    mix-blen-mode: overlay;
 }
 
 
