@@ -1,3 +1,8 @@
+body {
+    background-image: url("images/background.jpg");
+    width: 100%;
+}
+
 p {
     font-family: helvetica;
     font-weight: lighter;
@@ -14,6 +19,7 @@ p {
 .tabs {
     margin-top: 4%;
     margin-bottom: 10%;
+    background-color: transparent;
 
 }
 
@@ -27,7 +33,7 @@ p {
 
 .tabs .tab a:focus,
 .tabs .tab a:focus.active {
-    background-color: white;
+    background-color: transparent;
 }
 
 .tabs .indicator {
@@ -90,6 +96,9 @@ p {
     letter-spacing: 1.5px;
     line-height: 30px;
     padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify
 }
 
 #bellaPhoto {
@@ -97,8 +106,13 @@ p {
     width: 30%;
     float: left;
     margin-right: 3%;
+    margin-left: 3%;
     margin-top: 3.5%;
-    border-radius: 10px;
+    border-radius: 30px;
+}
+
+#bellaPhoto2 {
+    display: none;
 }
 
 /*=======================================*/
@@ -106,7 +120,7 @@ p {
 /*MODALS*/
 
 .modal {
-    width: 90%;
+    width: 70%;
     max-height: 87%;
     margin-top: -2%;
 }
@@ -128,6 +142,10 @@ p {
     opacity: 0.5;
 }
 
+.website {
+    margin-top: 5%;
+}
+
 .mockupRow {
     /*margin-bottom: 3%;*/
 }
@@ -143,8 +161,19 @@ p {
     line-height: 20px;
     text-align: justify;
     margin-left: 5%;
-    margin-top: -0.5%;
+    /*margin-top: -0%;*/
 }
+
+/*MODAL 1*/
+
+#projectInfo1 {
+    border-left: 1px solid #ff8400;
+    border-top: 1px solid #ff8400;
+    padding-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 
 /*MODAL 2*/
 
@@ -152,6 +181,130 @@ p {
     border-left: 1px solid #ff8400;
     border-top: 1px solid #ff8400;
     padding-top: 3%;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*MODAL 3*/
+
+#projectInfo3 {
+    border-left: 1px solid #ff8400;
+    border-top: 1px solid #ff8400;
+    padding-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*========================================*/
+
+/*RESUME*/
+
+#resume {
+    width: 90%;
+}
+
+
+/*======================================*/
+
+@media only screen and (max-width: 650px) {
+
+    /*ABOUT*/
+    #bellaCircle {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+
+    #bellaPhoto {
+        display: none;
+    }
+
+    #bellaPhoto2 {
+        display: block;
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: 4.5%;
+        border-radius: 30px;
+    }
+
+    #aboutMe {
+        text-align: center;
+    }
+
+    #text1 {
+        margin-top: 5%;
+        /*letter-spacing: 1.7px;*/
+        font-size: 21px;
+        text-align: center;
+
+    }
+
+    #text2 {
+        font-size: 15px;
+        /*color: grey;*/
+        text-align: center;
+        margin-top: -8%;
+        /*letter-spacing: 2px;*/
+    }
+
+    #text3 {
+        /*letter-spacing: 1px;*/
+        font-size: 19px;
+        text-align: center;
+    }
+
+    #text4 {
+        margin-top: -6%;
+        /*font-weight: normal;*/
+        /*text-transform: uppercase;*/
+        /*letter-spacing: 2.2px;*/
+        font-size: 27px;
+        text-align: center;
+        /*color: grey;*/
+    }
+
+
+
+
+    /*=======================================*/
+    /*PORTFOLIO*/
+    .socialLogos {
+        width: 20%;
+        margin-left: 24%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        box-shadow: 2px 5px 8px lightgrey;
+        float: left
+    }
+
+    .website {
+        margin-top: -2.7%;
+        margin-left: 10%;
+    }
+
+    .description {
+        text-align: left;
+    }
+
+    .modal {
+        width: 90%;
+    }
+    .mockImg {
+        width: 100%;
+    }
+
+    #projectInfo1 {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #projectInfo2 {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #projectInfo3 {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 }
