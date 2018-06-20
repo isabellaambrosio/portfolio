@@ -36,16 +36,16 @@
         <div class="row" id='tabs'>
             <!--Firt Column-->
             <div class='col m1'>
-                <img src="images/logo.jpg"></img>
+                <!--<img src="images/logo.jpg"></img>-->
             </div>
 
             <!--Second Column-->
-            <div class="col m8 offset-m1">
+            <div class="col s12 m8 offset-m1">
                 <ul class="tabs">
                     <li class="tab col s3"><a href="#about">About</a></li>
                     <li class="tab col s3"><a href="#portfolio">Portfolio</a></li>
                     <li class="tab col s3"><a href="#resume">Resume</a></li>
-                    <li class="tab col s3"><a href="#contact">Contact</a></li>
+                    <!--<li class="tab col s3"><a href="#contact">Contact</a></li>-->
                 </ul>
             </div>
 
@@ -56,7 +56,7 @@
                         <!--First Column-->
                         <div class='col m6'>
                             <p id='text1'>
-                                Hi, I’m Isabella Ambrosio
+                                Hi, I’m Isabella Ambrosio,
                             </p>
                             <p id='text2'>
                                 or you can call me Bella.
@@ -71,7 +71,7 @@
 
                         <!--Second Column-->
                         <div class='col m5'>
-                            <img class='responsive-img circle' src="images/bella-profile.jpg"></img>
+                            <img id='bellaCircle' class='responsive-img circle' src="images/bella-profile.jpg"></img>
                         </div>
                     </div>
 
@@ -81,11 +81,9 @@
                             <img id='bellaPhoto' src="images/bella.jpg"></img>
                             <p id='aboutMe'>
                                 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up
-                                one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
-                                1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
-                                "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.1 .32 and 1.10.33 from "de Finibus Bonorum
-                                et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                                one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
                             </p>
+                            <img id='bellaPhoto2' src="images/bella.jpg"></img>
                         </div>
                     </div>
                 </div>
@@ -96,11 +94,15 @@
 
                 <!--First Card-->
                 <div class="col s12 m4">
-                    <div class="card">
+                    <div class="card hoverable">
                         <div class="card-image">
-                            <img src="images/convoyLogo.jpg">
+
+                            <a class="modal-trigger" href="#modal1"><img src="images/convoyLogo.jpg"></a>
+
+
+                            <!--<img src="images/convoyLogo.jpg">-->
                             <!--<span class="card-title">Card Title</span>-->
-                            <a class="btn-floating halfway-fab waves-effect waves-light red modal-trigger" href="#modal1"><i class="material-icons">add</i></a>
+                            <!--<a class="btn-floating halfway-fab waves-effect waves-light red modal-trigger" href="#modal1"><i class="material-icons">add</i></a>-->
                         </div>
                         <!--<div class="card-content">-->
                         <!--    <p>Name of Project</p>-->
@@ -109,11 +111,50 @@
                         <!--Modal One-->
                         <div id="modal1" class="modal">
                             <div class="modal-content">
-                                <h4>Modal Header</h4>
-                                <p>A bunch of text</p>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+
+                                <!--Mockup Row-->
+                                <div class='row mockupRow'>
+                                    <div class='col m12'>
+                                        <img class='mockImg' src="images/Convoymockup.jpg"></img>
+                                    </div>
+                                </div>
+
+                                <!--Project Info-->
+                                <section class='projectInfo'>
+                                    <div class='row' id='projectInfo1'>
+
+                                        <!--Link Icons-->
+                                        <div class='col s12 m2'>
+                                            <!--<div class='row'>-->
+                                            <!--    <div class='col m12'>-->
+                                            <a target='_blank' href='https://github.com/isabellaambrosio/convoy'>
+                                                    <img class='circle socialLogos hoverable'  src="images/gitHubLogo.jpg"></img>
+                                                </a>
+                                            <!--</div>-->
+
+                                            <!--<div class='col m12'>-->
+                                            <br>
+                                            <a target='_blank' href='https://warm-woodland-20139.herokuapp.com/'>
+                                                    <img class='circle socialLogos website hoverable' src="images/webLogo.jpg"></img>
+                                                </a>
+                                            <!--    </div>-->
+                                            <!--</div>-->
+                                        </div>
+
+                                        <!--Project Description-->
+                                        <div class='col m10'>
+                                            <p class='description'>
+                                                • Entirely built on React framework
+                                                <br>
+                                                <br> • Used Node.js and Express to set up server and SendGrid for email invitations, Firebase was used for database management and user authentication, and Goggle Maps API to track user's location.
+                                                <br>
+                                                <br> • My role on this project was to create and develop a user-friendly layout. The main goal for the layout was to build the design for mobile first, and then add media queries for bigger screens. I also
+                                                used Materialize to add a clean and modern look to the app. I also helped setting up a server and SendGrid.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
                             </div>
                         </div>
 
@@ -122,11 +163,14 @@
 
                 <!--Second Card-->
                 <div class="col s12 m4">
-                    <div class="card">
+                    <div class="card hoverable">
                         <div class="card-image">
-                            <img src="images/musicHubLogo.jpg">
+
+                            <a class="modal-trigger" href="#modal2"><img src="images/musicHubLogo.jpg"></a>
+
+                            <!--<img src="images/musicHubLogo.jpg">-->
                             <!--<span class="card-title">Card Title</span>-->
-                            <a class='btn-floating halfway-fab waves-effect waves-light red modal-trigger' href='#modal2'><i class="material-icons">add</i></a>
+                            <!--<a class='btn-floating halfway-fab waves-effect waves-light red modal-trigger' href='#modal2'><i class="material-icons">add</i></a>-->
                         </div>
                         <!--<div class="card-content">-->
                         <!--    <p>Name of Project</p>-->
@@ -138,7 +182,7 @@
 
                                 <!--Mockup Row-->
                                 <div class='row mockupRow'>
-                                    <div class='col m10 offset-m1'>
+                                    <div class='col m12'>
                                         <img class='mockImg' src="images/musicHubMockup2.jpg"></img>
                                     </div>
                                 </div>
@@ -148,26 +192,23 @@
                                     <div class='row' id='projectInfo2'>
 
                                         <!--Link Icons-->
-
-                                        <div class='col m2'>
-                                            <div class='row'>
-                                                <div class='col m12'>
-                                                    <a target='_blank' href='https://github.com/isabellaambrosio/SpotifyWebApp'>
-                                                    <img class='circle socialLogos'  src="images/gitHubLogo.jpg"></img>
+                                        <div class='col S12 m2'>
+                                            <!--<div class='row'>-->
+                                            <!--    <div class='col m12'>-->
+                                            <a target='_blank' href='https://github.com/isabellaambrosio/SpotifyWebApp'>
+                                                    <img class='circle socialLogos hoverable'  src="images/gitHubLogo.jpg"></img>
                                                 </a>
-                                                </div>
+                                            <!--</div>-->
 
 
-                                                <div class='col m12'>
-                                                    <br>
-                                                    <a target='_blank' href='https://isabellaambrosio.github.io/SpotifyWebApp/Project%201/index.html'>
-                                                    <img class='circle socialLogos' src="images/webLogo.jpg"></img>
+                                            <!--<div class='col m12'>-->
+                                            <br>
+                                            <a target='_blank' href='https://isabellaambrosio.github.io/SpotifyWebApp/Project%201/index.html'>
+                                                    <img class='circle socialLogos website hoverable' src="images/webLogo.jpg"></img>
                                                 </a>
-                                                </div>
-                                            </div>
+                                            <!--    </div>-->
+                                            <!--</div>-->
                                         </div>
-
-
 
                                         <!--Project Description-->
                                         <div class='col m10'>
@@ -183,30 +224,20 @@
                                         </div>
                                     </div>
                                 </section>
-
-
-
-
-
-
-
-
                             </div>
-                            <!--<div class="modal-footer">-->
-                            <!--    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>-->
-                            <!--</div>-->
-
                         </div>
                     </div>
                 </div>
 
                 <!--Third Card-->
                 <div class="col s12 m4">
-                    <div class="card">
+                    <div class="card hoverable">
                         <div class="card-image">
-                            <img src="images/americanTravelLogo.jpg">
+
+                            <a class="modal-trigger" href="#modal3"><img src="images/americanTravelLogo.jpg"></a>
+                            <!--<img src="images/americanTravelLogo.jpg">-->
                             <!--<span class="card-title">Card Title</span>-->
-                            <a class="btn-floating halfway-fab waves-effect waves-light red modal-trigger" href='#modal3'><i class="material-icons">add</i></a>
+                            <!--<a class="btn-floating halfway-fab waves-effect waves-light red modal-trigger" href='#modal3'><i class="material-icons">add</i></a>-->
                         </div>
                         <!--<div class="card-content">-->
                         <!--    <p>Name of Project</p>-->
@@ -215,11 +246,46 @@
                         <!--Modal Three-->
                         <div id="modal3" class="modal">
                             <div class="modal-content">
-                                <h4>Modal Header</h4>
-                                <p>A bunch of text</p>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                                <!--Mockup Row-->
+                                <div class='row mockupRow'>
+                                    <div class='col m12'>
+                                        <img class='mockImg' src="images/americanTravelerMockup.jpg"></img>
+                                    </div>
+                                </div>
+
+                                <!--Project Info-->
+                                <section class='projectInfo'>
+                                    <div class='row' id='projectInfo3'>
+
+                                        <!--Link Icons-->
+                                        <div class='col s12 m2'>
+                                            <!--<div class='row'>-->
+                                            <!--<div class='col m12'>-->
+                                            <a target='_blank' href='https://github.com/isabellaambrosio/groupTravelApp'>
+                                                <img class='circle socialLogos hoverable'  src="images/gitHubLogo.jpg"></img>
+                                            </a>
+                                            <!--</div>-->
+
+                                            <!--<div class='col m12'>-->
+                                            <br>
+                                            <a target='_blank' href='https://warm-woodland-20139.herokuapp.com/'>
+                                                <img class='circle socialLogos website hoverable' src="images/webLogo.jpg"></img>
+                                            </a>
+                                            <!--</div>-->
+                                            <!--</div>-->
+                                        </div>
+
+                                        <!--Project Description-->
+                                        <div class='col m10'>
+                                            <p class='description'>
+                                                • Built with Materialize, Node.js, Express and Sequelize.
+                                                <br>
+                                                <br> • My role on this project was to design and develop a responsive UI that would enable the user to navigate throughout the website using the Three-Click rule. I also used Bing Image Search API and JQuery
+                                                to populate the images according to each selected country.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
                             </div>
                         </div>
                     </div>
@@ -228,14 +294,14 @@
             </div>
 
             <!--Resume-->
-            <div id="resume" class="col m10 offset-m2">
-                <img src="resume.jpeg"></img>
+            <div class="col m12">
+                <img id="resume" src="resume.jpeg"></img>
             </div>
 
             <!--Contact-->
-            <div id="contact" class="col s12">
-                Contact
-            </div>
+            <!--<div id="contact" class="col s12">-->
+            <!--    Contact-->
+            <!--</div>-->
         </div>
 
     </div>
