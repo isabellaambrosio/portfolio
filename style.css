@@ -4,7 +4,7 @@ body {
     /*width: 100%;*/
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    height: 100%;
 }
 
 p {
@@ -222,7 +222,7 @@ p {
 
 #resume {
     width: 100%;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
 }
 
 
@@ -382,10 +382,6 @@ p {
 
     }
 
-    #aboutMe {
-        /*font-size: 1.35vw;*/
-    }
-
     #bellaPhoto {
         box-sizing: content-box;
         width: 25%;
@@ -393,8 +389,6 @@ p {
 
     .tabs .tab a {
         font-size: 1.1vw;
-        color: black;
-        font-family: helvetica;
     }
 
     .socialLogos {
